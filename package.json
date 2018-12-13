@@ -1,0 +1,19 @@
+{
+  "name": "osagai-simple-router",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "release": "npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish dist"
+  },
+  "author": "Henrique Limas <hlimas@ebay.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.8.3"
+  },
+  "peerDependencies": {
+    "osagai": "^0.0.10"
+  }
+}
