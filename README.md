@@ -1,5 +1,5 @@
-# osagai-simple-router
-A simple and tiny (520 Byte) router implemented with Osagai
+# osagai-simple-router 🀄️®️
+A simple and tiny (520 Byte) router implemented with [Osagai](https://github.com/HenriqueLimas/osagai)
 
 ## Install
 
